@@ -1,0 +1,60 @@
+.page__footer {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 170px;
+}
+
+.footer {
+    background: #141414;
+    color: white;
+}
+
+.footer__title {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.footer__lists {
+    line-height: 2vw;
+    font-size: 10px;
+}
+
+.footer__icon {
+    width: 2.5vw;
+    padding-right: 15px;
+}
+
+.contact-info__icon {
+    width: 2vw;
+    padding-right: 15px;
+}
+
+.footer__link {
+    color: white
+}
+
+.footer__link:visited {
+    color: white;
+}
+
+.footer__link:hover {
+    color:#E8AA31;
+}
+
+
+.phone-footer__number {
+    font-weight: 600;
+    line-height: 25px;
+    color: white;
+}
+
+.phone-footer__number:hover {
+    color: #118a0d;
+}
+
+.phone-footer__number:visited {
+    color: white;
+}

@@ -1,0 +1,35 @@
+.main__tittle-review{
+    margin: 20px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.main__cards-review {
+    display: flex;
+}
+
+.main-card-wizard {
+    display: flex;
+    border: 1px solid black;
+    margin: 15px 15px;
+    width: 800px;
+    height: 300px;
+    background-color: #ECF1F2;
+}
+
+.wizard-image {
+    width: 100%;
+}
+
+.wizard-name {
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+
+.card-wizard__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,125 @@
+.main__form-registration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 486px;
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: calc(50% - 486px/2);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.main__form-title {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.main__email-lable {
+    position: relative;
+    margin-right: 254px;
+}
+
+.main__email {
+    padding: 5px 20px;
+    width: 390px;
+    height: 44px;
+    border: 1px solid #D7DADD;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.main__email-error {
+    position: absolute;
+    top: 59px;
+    left: 0px;
+    width: 390px;
+    color: red;
+}
+
+.main__erorrs {
+    font-size: 12px;
+}
+
+.main__password-lable {
+    position: relative;
+    margin-top: 25px;
+    margin-right: 316px;
+}
+
+.main__password {
+    padding: 5px 20px;
+    width: 390px;
+    height: 44px;
+    border: 1px solid #D7DADD;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.main__password-error {
+    position: absolute;
+    top: 59px;
+    left: 0px;
+    width: 390px;
+    color: red;
+}
+
+.main__checkbox-terms {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__checkbox-lable {
+    position: relative;
+    margin-top: 30px;
+}
+
+.main__checkbox-terms {
+    position: absolute;
+    left: -31px;
+    top: -3px;
+    height: 25px;
+    width: 25px;
+    opacity: 0;
+}
+
+.main__field-mark {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    left: -31px;
+    top: -3px;
+    height: 25px;
+    width: 25px;
+}
+
+.main__checkbox-terms:checked + .main__field-mark::after {
+    content: '✓';
+    position: absolute;
+    left: 5px;
+    top: 2px;
+}
+
+.main__box-error {
+    position: absolute;
+    top: 22px;
+    left: -32px;
+    width: 390px;
+    color: red;
+}
+
+
+.main__btn-registration {
+    margin-top: 44px;
+    width: 390px;
+    height: 44px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+}
+
+.main__btn-registration:hover {
+    background: linear-gradient(55.95deg, #5cf570 0%, #0df705 100%);
+}
